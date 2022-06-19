@@ -1,0 +1,94 @@
+@import url(./reset.css);
+
+.hidden {
+  display: none;
+}
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+img {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+#clock {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 35px;
+}
+#todo-form input[type="text"] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 30px;
+  text-align: center;
+}
+
+#quote {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+
+#quote span:first-child {
+  display: block;
+}
+
+#weather {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: bolder;
+}
+
+#todo-list {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 60%;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+
+#todo-list li {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+#todo-list li button {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
